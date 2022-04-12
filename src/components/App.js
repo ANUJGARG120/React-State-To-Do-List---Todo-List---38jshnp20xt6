@@ -31,10 +31,10 @@ const App = () => {
   };
   return (
     <div>
-    <div className="todo">
+    <div className="list">
       <h1 className="h1">Todo List</h1>
-      <input className="yes" type="text" value={value} onChange={valueHandler} />
-      <button className="btn" onClick={listHandler}>Add</button>
+      <input className="yes" type="text" id="task" value={value} onChange={valueHandler} />
+      <button id="btn" onClick={listHandler}>Add</button>
       
     </div>
      <div className="ui" >
