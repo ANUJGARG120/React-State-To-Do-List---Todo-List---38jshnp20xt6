@@ -1,16 +1,58 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
 
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+body {
+  background: linear-gradient(0.75turn, #dbb240, #9f4feb, #ce962f);
+}
+.h1 {
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.yes {
+  height: 40px;
+  width: 300px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: rgb(172, 230, 134);
+}
+.btn {
+  height: 40px;
+  border-radius: 10px;
+  width: 70px;
+  font-size: 22px;
+  background-color: rgb(214, 181, 73);
+  box-shadow: 2px 2px 2px blue;
 }
 
-.bg-pink{
-	background-color:pink;
+.list {
+  text-align: center;
+  width: 500px;
+  height: 200px;
+  background-color: rgb(164, 196, 139);
+  margin: auto;
+  padding: 40px;
+  box-shadow: 2px 3px 5px 5px red;
+  border-radius: 10px;
+}
+.ui {
+  border-radius: 5px;
+  text-align: center;
+  font-size: 25px;
+  width: 400px;
+  margin: auto;
+  list-style-type: none;
+}
+
+.li {
+  margin: 10px;
+  border: 1px solid black;
+  width: 200px;
+  border-radius: 10px;
+  background-color: lightgray;
+  box-shadow: 2px 2px rgb(55, 199, 86);
+  font-size: 20px;
+}
+
+button.dlt {
+  background-color: rgb(158, 130, 130);
+  display: flex;
+  flex-direction: inherit;
 }
