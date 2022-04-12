@@ -4,7 +4,7 @@ import './styles/App.css'
 
 let nextId = 0;
 const App = () => {
-  const [value, setValue] = useState('');
+  const [value, setValue] = useState();
   const [list, setList] = useState([]);
 
 
@@ -30,7 +30,7 @@ const App = () => {
     setList(newList);
   };
   return (
-    <div>
+//     <div>
     <div className="list">
       <h1 className="h1">Todo List</h1>
       <input className="yes" type="text" id="task" value={value} onChange={valueHandler} />
@@ -43,13 +43,13 @@ const App = () => {
          <div className='li'>
             <li  key={item.id}>
             {item.data}
-            <button className="dlt" onClick={() => deleteHandler(item.id)}>X</button>
+            <button className="btn" onClick={() => deleteHandler(item.id)}>X</button>
           </li>
          </div>
         ))}
       
      </div>
-    </div>
+//     </div>
   );
 };
 export default App;
